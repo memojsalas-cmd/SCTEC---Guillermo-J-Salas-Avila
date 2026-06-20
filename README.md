@@ -29,11 +29,34 @@ Praticar os principais conceitos:
   ### No Google Colab (recomendado)
 1. Faça upload do notebook dataview.ipynb
 2. Abra o arquivo carregado no Colab
-3. Execute as células na ordem, de cima para baixo 30
-
+3. Execute as células na ordem, de cima para baixo
+   
    ### Localmente com VS Code
    1. Instale o Python 3.10+ e o VS Code.
    2. Instale as dependências: pip install pandas numpy matplotlib seaborn
 
 ## Estrutura do projeto
-projeto/ |-- data/ | |-- raw/ # Dataset bruto gerado/baixado | |-- processed/ | | |-- v1_com_outliers/ # Dados de limpeza geral, outliers mantidos | | |-- v2_outliers_tratado/ # Limpeza v1 + tratamento de outliers | |-- final/ # Dataset escolhido para uso futuro |-- notebooks/ | |-- dataview.ipynb # Notebook principal de EDA |-- outputs/ | |-- metricas_por_mes.csv | |-- segmentacao_clientes.csv | |-- estatisticas_gerais.json | |-- graficos/ |-- README.md ## Ferramentas utilizadas - Python 3.10+ - Google Colab / VS Code - Bibliotecas: pandas, numpy, matplotlib, seaborn, re, datetime, os, random - GitHub para versionamento ## Vídeo de demonstração [Inserir link do Google Drive ou YouTube aqui] 31
+projeto/ 
+|-- data/ 
+| |-- raw/                              # Dataset bruto gerado/baixado 
+| |-- processed/ 
+| | |-- v1_com_outliers/                # Dados de limpeza geral, outliers mantidos
+| | |-- v2_outliers_tratado/            # Limpeza v1 + tratamento de outliers 
+| |-- final/                            # Dataset escolhido para uso futuro 
+|-- notebooks/ 
+| |-- dataview.ipynb                    # Notebook principal de EDA 
+|-- outputs/
+| |-- metricas_por_mes.csv 
+| |-- segmentacao_clientes.csv 
+| |-- estatisticas_gerais.json | 
+|-- graficos/ 
+|-- README.md 
+
+## Ferramentas utilizadas 
+- Python 3.10+
+- Google Colab / VS Code
+- Bibliotecas: pandas, numpy, matplotlib, seaborn, re, datetime, os, random
+- GitHub para versionamento
+
+## Vídeo de demonstração 
+[Inserir link do Google Drive ou YouTube aqui] 
