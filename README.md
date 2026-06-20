@@ -53,6 +53,11 @@ projeto/
 |-- graficos/ 
 |-- README.md 
 ```
+## Decisão de versão (dados)
+
+A análise final usa a versão v2 (outliers tratados) e A v1 (com outliers) fica preservada em 
+data/processed/ para consulta futura.
+
 ## Ferramentas utilizadas 
 - Python 3.10+
 - Google Colab / VS Code
